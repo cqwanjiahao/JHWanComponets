@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		066BF7F92B97167CDDEB7245 /* Pods-JHWanComponets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHWanComponets_Example.release.xcconfig"; path = "Target Support Files/Pods-JHWanComponets_Example/Pods-JHWanComponets_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49E9F4E0F203CA77C65D34E5 /* Pods-JHWanComponets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHWanComponets_Example.debug.xcconfig"; path = "Target Support Files/Pods-JHWanComponets_Example/Pods-JHWanComponets_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A5FD35CA16EC821D48D7459 /* JHWanComponets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JHWanComponets.podspec; path = ../JHWanComponets.podspec; sourceTree = "<group>"; };
-		57194EDA9A04671192848E97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A5FD35CA16EC821D48D7459 /* JHWanComponets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHWanComponets.podspec; path = ../JHWanComponets.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57194EDA9A04671192848E97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JHWanComponets_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHWanComponets_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		7C521AEF4A8CFBFA0AA044F8 /* Pods-JHWanComponets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHWanComponets_Tests.release.xcconfig"; path = "Target Support Files/Pods-JHWanComponets_Tests/Pods-JHWanComponets_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		970CB191053AE3B2CC5A9823 /* Pods_JHWanComponets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHWanComponets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD9ABD9E3A1684C78C5DBF5 /* Pods_JHWanComponets_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHWanComponets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFF1EB7BB9DD67134471D297 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AFF1EB7BB9DD67134471D297 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B91CC32CCEDDE1C05E24BCD0 /* Pods-JHWanComponets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHWanComponets_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JHWanComponets_Tests/Pods-JHWanComponets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				B91CC32CCEDDE1C05E24BCD0 /* Pods-JHWanComponets_Tests.debug.xcconfig */,
 				7C521AEF4A8CFBFA0AA044F8 /* Pods-JHWanComponets_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A6392B22AF4F95B2B3340094 /* [CP] Embed Pods Frameworks */,
+				B0458DA1895E2BAA9A01BEE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A6392B22AF4F95B2B3340094 /* [CP] Embed Pods Frameworks */ = {
+		B0458DA1895E2BAA9A01BEE9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

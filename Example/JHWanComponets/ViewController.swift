@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import JHWanComponets
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let btn = UIButton()
+        btn.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
+        btn.setTitle("DemoBtn", for: .normal)
+        btn.backgroundColor = .white
+        view.addSubview(btn)
+        btn.addTarget(self, action: #selector(testBtnClick), for: .touchUpInside)
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @objc func testBtnClick(){
+         let vc = JHViewController()
+        
+//        JHWanComponets.testVC()
+//        JHComponets.testVC()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +36,3 @@ class ViewController: UIViewController {
     }
 
 }
-
-o

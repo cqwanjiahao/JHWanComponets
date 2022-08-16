@@ -1,0 +1,16 @@
+PODS:
+  - JHWanComponets (0.1.0)
+
+DEPENDENCIES:
+  - JHWanComponets (from `../`)
+
+EXTERNAL SOURCES:
+  JHWanComponets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JHWanComponets: 9b08918a0f04b0ed553dd58e69a05415b6d2ee2c
+
+PODFILE CHECKSUM: 265a748bbe54462c17a8361926a6decd92dedb85
+
+COCOAPODS: 1.11.3

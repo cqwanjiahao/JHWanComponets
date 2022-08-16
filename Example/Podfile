@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JHWanComponets_Example' do
+  pod 'JHWanComponets', :path => '../'
+
+  target 'JHWanComponets_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

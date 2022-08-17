@@ -7,10 +7,16 @@
 
 import UIKit
 
-class JHWanComponets: NSObject {
+public class JHWanComponets: NSObject {
     
-    open static func testVC() {
-        let vc = ex_presentController()
+    public static let shared: JHWanComponets = JHWanComponets()
+    
+    public func showInfo() {
+        print("showInfo")
+    }
+    
+    public func testVC() {
+        let vc = JHWanComponets.ex_presentController()
         vc?.present(JHViewController(), animated: true, completion: {})
     }
     

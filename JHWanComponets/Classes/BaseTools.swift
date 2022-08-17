@@ -7,7 +7,14 @@
 
 import UIKit
 
-class BaseTools: NSObject {
+public class BaseTools: NSObject {
+    
+    public static let shared: BaseTools = BaseTools()
+    
+    public func showInfo() {
+        print("showInfo")
+    }
+    
     class public func testFunc() {
      print("按钮点击12345")
     }

@@ -7,9 +7,9 @@
 
 import UIKit
 
-class JHViewController: UIViewController {
+public class JHViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
         

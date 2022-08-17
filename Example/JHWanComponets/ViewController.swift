@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let btn = UIButton()
         btn.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
         btn.setTitle("DemoBtn", for: .normal)
-        btn.backgroundColor = .white
+        btn.backgroundColor = .blue
         view.addSubview(btn)
         btn.addTarget(self, action: #selector(testBtnClick), for: .touchUpInside)
         

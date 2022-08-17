@@ -24,7 +24,14 @@ class ViewController: UIViewController {
     }
     
     @objc func testBtnClick(){
-         let vc = JHViewController()
+//        TestDemo.shared.showInfo()
+        BaseTools.shared.showInfo()
+//        JHWanComponets.shared.showInfo()
+        
+//        let tool =
+//        JHWanComponets.shared.showInfo()
+//        tool.showInfo()
+//         let vc = JHViewController()
         
 //        JHWanComponets.testVC()
 //        JHComponets.testVC()
